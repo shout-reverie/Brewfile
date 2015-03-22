@@ -29,8 +29,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv
-install r
+# install opencv
 
 ## homebrew/versions
 tap homebrew/versions
@@ -52,20 +51,5 @@ install python
 install redis
 install sqlite
 install wine
-
-# App Store applications
-appstore Disk Diag
-appstore Evernote
-appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore Keynote
-appstore LINE
-appstore MPlayerX
-appstore Numbers
-appstore OneDrive
-appstore Pages
-appstore PopClip
-appstore Slack
-appstore The Unarchiver
-appstore YoruFukurou
+install lua
+install vim --with-lua
