@@ -3,126 +3,108 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install arduino ##############
-cask install dropbox ##############
-cask install duet ################# iPadでdual display
-cask install flashlight ########### spot light拡張
-cask install google-chrome ########
-cask install hipchat ##############
-cask install insomniax ############
-cask install libreoffice ##########
-cask install mactex ###############
-cask install processing ###########
-cask install skype ################
-cask install sqlitebrowser ########
-cask install xquartz ##############
-cask install virtualbox ###########
-cask install vagrant ##############
+cask install arduino
+cask install dropbox
+cask install duet
+cask install flashlight
+cask install google-chrome
+cask install hipchat
+cask install insomniax
+cask install libreoffice
+cask install skype
+cask install sqlitebrowser
+cask install vagrant
+cask install virtualbox
+cask install xquartz
 
 ## caskroom/versions
 tap caskroom/versions
-cask install sublime-text3 ########
+cask install processing3
+cask install sublime-text3
 
 ## homebrew/python
 tap homebrew/python
-install numpy ##################### pythonの数値計算ライブラリ
+install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv #################### 画像処理ライブラリ
-install r ######################### 
 
 ## homebrew/versions
 tap homebrew/versions
-install gcc48 #####################
-install gmp4 ######################
-install isl011 ####################
-install libmpc08 ##################
-install ppl011 ####################
+install cloog018
+install gcc49
+install gmp4
+install isl011
+install libmpc08
+install mpfr2
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file #################
+install brew-file
 
 # Other Homebrew packages
 install android-sdk
-install ant
-install autoconf
-install automake
 install boot2docker
 install cairo
-install cmake
-install cscope
+install cloog
 install docker
 install eigen
-install emacs --cocoa --with-gnutls --srgb --japanese --cocoa --with-gnutls
 install fontconfig --universal
-install freetype --universal --universal
+install freetype --universal
+install gcc
 install gd --universal
-install gdb
 install gdbm
 install gettext
-install ghostscript
 install git
 install git-flow
 install glib
 install gmp
-install gnutls
 install ilmbase
-install imagemagick
-install ios-sim
 install isl
 install jasper --universal
-install jbig2dec
 install jpeg --universal
 install libffi
-install libgphoto2 --universal --universal
+install libgphoto2 --universal
 install libicns --universal
 install libmpc
-install libpng --universal --universal
-install libtasn1
+install libpng --universal
 install libtiff --universal
-install libtool --universal --universal
-install libusb --universal --universal
+install libtool --universal
+install libusb --universal
 install libusb-compat --universal
 install little-cms2 --universal
 install lua
-install macvim --HEAD --with-lua
 install makedepend
+install mpfr
 install mysql
-install nettle
-install nkf
 install node
 install openexr
-install openssl --universal --universal
-install p11-kit
+install openssl --universal
 install pixman
 install pkg-config
 install python
-install rbenv
 install readline
 install redis
-install ruby-build
-install sane-backends --universal --universal
+install sane-backends --universal
 install sqlite
-install tig
-install wget
+install vim --with-lua
 install wine
 install xz
 
 # App Store applications
-appstore Disk Diag
+appstore AutoKeyboard
 appstore Evernote
 appstore GarageBand
+appstore iBoostUp
 appstore iMovie
 appstore iPhoto
 appstore Keynote
-appstore LINE
 appstore MPlayerX
 appstore Numbers
 appstore OneDrive
 appstore Pages
 appstore PopClip
-appstore Slack
-appstore The Unarchiver
+appstore Skala Preview
+appstore StuffIt Expander
+appstore Xcode
 appstore YoruFukurou
