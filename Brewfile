@@ -1,54 +1,48 @@
-
 # tap repositories and their packages
 
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install adobe-creative-cloud
-cask install appcleaner
-cask install arduino
-cask install clipmenu
-cask install dropbox
-cask install duet
-cask install flashlight
-cask install gimp
-cask install google-chrome
-cask install hipchat
-cask install insomniax
-cask install libreoffice
-cask install mactex
-cask install netbeans
-cask install processing
-cask install skype
-cask install sqlitebrowser
-cask install sublime-text
-cask install xquartz
+cask install arduino ##############
+cask install dropbox ##############
+cask install duet ################# iPadでdual display
+cask install flashlight ########### spot light拡張
+cask install google-chrome ########
+cask install hipchat ##############
+cask install insomniax ############
+cask install libreoffice ##########
+cask install mactex ###############
+cask install processing ###########
+cask install skype ################
+cask install sqlitebrowser ########
+cask install xquartz ##############
+cask install virtualbox ###########
+cask install vagrant ##############
 
 ## caskroom/versions
 tap caskroom/versions
-cask install sublime-text3
-cask install virtualbox431293733
+cask install sublime-text3 ########
 
 ## homebrew/python
 tap homebrew/python
-install numpy
+install numpy ##################### pythonの数値計算ライブラリ
 
 ## homebrew/science
 tap homebrew/science
-install opencv
-install r
+install opencv #################### 画像処理ライブラリ
+install r ######################### 
 
 ## homebrew/versions
 tap homebrew/versions
-install gcc48
-install gmp4
-install isl011
-install libmpc08
-install ppl011
+install gcc48 #####################
+install gmp4 ######################
+install isl011 ####################
+install libmpc08 ##################
+install ppl011 ####################
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+install brew-file #################
 
 # Other Homebrew packages
 install android-sdk
